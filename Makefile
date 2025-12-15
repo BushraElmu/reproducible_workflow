@@ -9,10 +9,10 @@ BIN := $(VENV)/bin
 		run run-script \
 		clean clean-cache clean-data \
 		check-env check-dirs 
-		# check-kaggle check-data \
-		# fetch-data \
-		# lint \
-		# test 
+# check-kaggle check-data \
+# fetch-data \
+# lint \
+# test 
 
 
 help:
@@ -60,7 +60,7 @@ check-data:
 
 run-script: check-env
 	@echo "Running Script"
-	@$(BIN)/repro-script
+	@$(PY) src/repro/script.py
 
 test: check-env
 	@$(PY) -m pytest -q

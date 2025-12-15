@@ -60,7 +60,7 @@ check-data:
 
 run-script: check-env
 	@echo "Running Script"
-	# @$(BIN)/[repro-script]
+	@$(BIN)/repro-script
 
 test: check-env
 	@$(PY) -m pytest -q

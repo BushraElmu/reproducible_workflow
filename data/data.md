@@ -3,7 +3,7 @@
 This project is intentionally minimal and does not require external datasets by default.
 
 ## Purpose of this file
-'data/data.md' is the sourt of truth for:
+'data/data.md' is the source of truth for:
 
 * dataset provenance (URLs / sources)
 * licensing acknowledgements and constraints

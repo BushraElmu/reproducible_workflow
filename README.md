@@ -66,7 +66,7 @@ OR
 1. rm -rf __pycache__ .pytest_cache .ruff_cache
 2. rm -rf data/interim data/processed data/raw
 
-## Make targets
+## Make Targets
 
 **make help** - view the intended available targets.
 
@@ -106,25 +106,26 @@ Example:
 
 ## Repository Structure
 
- src/
-	 repro/
-		 __init__.py
-		 script.py
- data/
-	 data.md
-	 raw/
-	 interim/
-	 processed/
- notebooks/
- reports/
- docs/
- tests/
- README.md
- LICENSE
- pyproject.toml
- poetry.lock
- .env.example
- Makefile
+reproducible_workflow/
+ 	src/
+	 	repro/
+			 __init__.py
+			 script.py
+ 	data/
+		data.md
+	 	raw/
+	 	interim/
+	 	processed/
+ 	   notebooks/
+	   reports/
+	   docs/
+	   tests/
+	   README.md
+	   LICENSE
+	   pyproject.toml
+	   poetry.lock
+	   .env.example
+	   Makefile
 
 ## Reproducibility Decisions
 
